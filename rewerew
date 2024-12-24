@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Розклад занять</title>
+    <style>
+        body {
+            background-color: #FFFFCC;
+            color: #330066;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #008080;
+            font-size: 2.5em;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 80%;
+            background-color: #99CCCC;
+        }
+        th, td {
+            border: 1px solid #CCCCFF;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #CCCCFF;
+        }
+        a {
+            color: #008080;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Розклад занять</h1>
+
+    <p><b>Виберіть день:</b></p>
+    <table>
+        <tr>
+            <th><a href="#monday">Понеділок</a></th>
+            <th><a href="#tuesday">Вівторок</a></th>
+            <th><a href="#wednesday">Середа</a></th>
+            <th><a href="#thursday">Четвер</a></th>
+            <th><a href="#friday">П'ятниця</a></th>
+        </tr>
+    </table>
+
+    <h2 id="monday">Понеділок</h2>
+    <table>
+        <tr>
+            <th>Урок</th>
+            <th>5 "А"</th>
+            <th>5 "Б"</th>
+            <th>5 "В"</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Українська мова</td>
+            <td>Українська література</td>
+            <td>Історія України</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Математика</td>
+            <td>Інформатика</td>
+            <td>Англійська мова</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Історія України</td>
+            <td>Математика</td>
+            <td>Інформатика</td>
+        </tr>
+    </table>
+
+    <h2 id="tuesday">Вівторок</h2>
+    <p>Тут буде розклад на вівторок...</p>
+
+    <h2 id="wednesday">Середа</h2>
+    <p>Тут буде розклад на середу...</p>
+
+    <h2 id="thursday">Четвер</h2>
+    <p>Тут буде розклад на четвер...</p>
+
+    <h2 id="friday">П'ятниця</h2>
+    <p>Тут буде розклад на п'ятницю...</p>
+
+    <footer>
+        <p>&copy; 2024 Розклад занять</p>
+    </footer>
+</body>
+</html>
